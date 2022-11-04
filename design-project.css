@@ -1,4 +1,7 @@
-img {
+body {
+    background-color: #E6E6E6
+}
+.nav-img {
     float: left;
     height: 105px;
     width: 105px;
@@ -14,5 +17,21 @@ img {
 .bi {
     height: 105px;
     width: 105px;
+    padding: .5em;
+    border-radius: 52px;
+    background-color: white;
+    margin: 2em;
+}
+p {
+    display: flex;
+    justify-content: center;
+}
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 60vw;
+    margin: 1em;
 
 }
