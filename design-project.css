@@ -1,0 +1,18 @@
+img {
+    float: left;
+    height: 105px;
+    width: 105px;
+    margin: 1em;
+}
+
+.navbar {
+    float: right;
+    padding: 0px;
+    margin: 1em;
+}
+
+.bi {
+    height: 105px;
+    width: 105px;
+
+}
