@@ -35,3 +35,24 @@ img {
     margin: 1em;
 
 }
+
+.small {
+    height: 75px;
+    width: 75px;
+    padding: 0em;
+    border-radius: 52px;
+    background-color: white;
+    margin: .75em;
+    float: right;
+}
+
+.featured {
+    float: left;
+    margin: 1.5em;
+    font-size: 2em;
+}
+
+.tweet {
+
+}
+
