@@ -1,6 +1,7 @@
 body {
     background-color: #E6E6E6
 }
+
 .nav-img {
     float: left;
     height: 105px;
@@ -22,10 +23,12 @@ body {
     background-color: white;
     margin: 2em;
 }
+
 p {
     display: flex;
     justify-content: center;
 }
+
 img {
     display: flex;
     align-items: center;
@@ -53,12 +56,22 @@ img {
 }
 
 .tweet {
-
+    font-weight: bold;
+    float: right;
+    flex-wrap: wrap;
+    width: 20%;
 }
+
+.tweet-para {
+    width: 25%;
+    float: right;
+}
+
 .d-lg-block {
     display: flex;
     float: right;
 }
+
 .img-article {
     height: 105px;
     width: 105px;
@@ -75,8 +88,47 @@ img {
     width: 50%;
 
 }
+
 .col-lg-3 {
     float: end
 }
 
+h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25em;
+}
 
+.circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: solid white 8px;
+    text-align: center;
+    line-height: 85px;
+    font-weight: bold;
+    color: white;
+}
+
+#develop{
+    background: #EB9D3A;
+}
+
+#support {
+    background: #7CB06C;
+}
+
+#design {
+    background: #E6563B;
+}
+
+#host {
+    background: #00ABA9;
+}
+
+.col-lg-9 {
+    padding-left: 40em;
+    margin-bottom: 2em;
+}
