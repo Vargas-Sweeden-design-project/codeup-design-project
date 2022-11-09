@@ -97,7 +97,7 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 25em;
+
 }
 
 .circle {
@@ -110,7 +110,6 @@ h5 {
     line-height: 85px;
     font-weight: bold;
     color: white;
-    margin: 1em;
 }
 
 
@@ -135,10 +134,3 @@ h5 {
     margin-bottom: 2em;
 }
 
-.row {
-    display: flex;
-}
-
-.column {
-    flex: 50%;
-}
